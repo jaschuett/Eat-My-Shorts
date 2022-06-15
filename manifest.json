@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Eat My Shorts",
+  "description": "Removes YouTube's objectively inferior \"shorts\" format by redirecting shorts to the traditional video format.",
+  "version": "1",
+  "declarative_net_request": {
+	  "rule_resources": [{
+		  "id": "ruleset_1",
+		  "enabled": true,
+		  "path": "rules.json"
+	  }]
+  },
+  "permissions": [
+	"declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+	"*://*.youtube.com/*"
+  ]
+}
