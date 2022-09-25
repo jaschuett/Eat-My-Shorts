@@ -11,7 +11,7 @@
 	  }]
   },
   "permissions": [
-	"declarativeNetRequestWithHostAccess"
+	"declarativeNetRequest"
   ],
   "host_permissions": [
 	"*://*.youtube.com/*"
